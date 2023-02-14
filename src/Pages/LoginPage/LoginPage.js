@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
     return (
-        <div className="hero mt-12">
+        <div className="hero my-12">
             <div className="hero-content lg:w-[550px] w-full flex-col lg:flex-row">
                 <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
                     <div className="card-body">
@@ -34,11 +34,17 @@ const LoginPage = () => {
                                 <button type='submit' className="btn btn-primary">Login</button>
                             </div>
                         </form>
-                        <div className='flex justify-between'>
-                            <span>Create an account</span>
+                        
+                        <div className="flex flex-col w-full border-opacity-50">
+                            <div className="divider">OR</div>
                         </div>
+
                         <div className='form-control'>
                             <button className='btn btn-primary'>Login With Google</button>
+                        </div>
+                        <div className='flex justify-between'>
+                            <span>Create an account</span>
+                            <span><Link to='/register'>Please Register</Link></span>
                         </div>
                     </div>
 
