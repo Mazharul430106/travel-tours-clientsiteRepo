@@ -38,9 +38,7 @@ const RegisterPage = () => {
                             <span>All ready have an account</span>
                             <span><Link to='/login'>Please login</Link></span>
                         </div>
-                      
                     </div>
-
                 </div>
             </div>
         </div>
