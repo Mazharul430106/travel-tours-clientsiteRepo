@@ -1,0 +1,155 @@
+[
+  {
+    "img": "https://i.ibb.co/w7hBn0X/kasmit-pakistan.jpg",
+    "place_title": "Kashmir Pakistan",
+    "ratting": "7.4 Superb",
+    "cost": "$1925 per person",
+    "title": "standrad_tour",
+    "days": "10 Days",
+    "years": "12+"
+  },
+  {
+    "img": "https://i.ibb.co/93QjNyk/dubai.jpg",
+    "place_title": "Dubai City",
+    "ratting": "7.4 Superb",
+    "cost": "$1650 per person",
+    "title": "popular_tour",
+    "days": "8 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/M9dV9hj/taj-mahal.jpg",
+    "place_title": "Tajmahal India",
+    "ratting": "7.4 Superb",
+    "cost": "$1520 per person",
+    "title": "perfect_tour",
+    "days": "7 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/j8PVzQN/tower-bridge-london.jpg",
+    "place_title": "Tower Bridge London",
+    "ratting": "7.4 Superb",
+    "cost": "$1870 per person",
+    "title": "discount_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/yVQks40/eiffel-tower-paris.jpg",
+    "place_title": "Eiffel Tower Paris",
+    "ratting": "7.4 Superb",
+    "cost": "$2520 per person",
+    "title": "standrad_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/gwttV7W/herosima-japan.jpg",
+    "place_title": "Heroshima Nagasaki Japan",
+    "ratting": "7.4 Superb",
+    "cost": "$1925 per person",
+    "title": "perfect_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/X53fQQK/vatican-city-italy.jpg",
+    "place_title": "Vatican City Itally",
+    "ratting": "7.4 Superb",
+    "cost": "$1925 per person",
+    "title": "standrad_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/kXPYhqT/sujitabh-chaudhary-y-Ez-HM6-Iq-Hc-A-unsplash.jpg",
+    "place_title": "Nepal",
+    "ratting": "6.3 Good",
+    "cost": "$1730 per person",
+    "title": "discount_tour",
+    "days": "7 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/p2LjRLy/thailand.jpg",
+    "place_title": "Thailand",
+    "ratting": "7.4 Superb",
+    "cost": "$1925 per person",
+    "title": "standrad_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/mDyY27k/south-africa.jpg",
+    "place_title": "South-Africa",
+    "ratting": "9.0 Excilent",
+    "cost": "$2050 per person",
+    "title": "perfect_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/BfH3zF5/missor-piramid.jpg",
+    "place_title": "Missior-Piramid",
+    "ratting": "6.7 Good",
+    "cost": "$1830 per person",
+    "title": "popular_tour",
+    "days": "9 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/hLYhpPG/lisbon-portugal.jpg",
+    "place_title": "Lisbon Portugal",
+    "ratting": "9.3 Excilent",
+    "cost": " $2130 per person",
+    "title": "popular_tour",
+    "days": "10 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/rcshLdf/south-australia.jpg",
+    "place_title": "South Australia",
+    "ratting": "10.0 Excilent",
+    "cost": "$2550 per person",
+    "title": "perfect_tour",
+    "days": "10 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/B2SV5Vx/new-york-city.jpg",
+    "place_title": "New York",
+    "ratting": "9.0 Excilent",
+    "cost": "$2370 per person",
+    "title": "popular_tour",
+    "days": "7 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/rd1y0zD/Irland.jpg",
+    "place_title": "Irland",
+    "ratting": "7.4 Good",
+    "cost": "$1890 per person",
+    "title": "perfect_tour",
+    "days": "5 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/wJ3rndR/chin.jpg",
+    "place_title": "Chin",
+    "ratting": "8.2 Superb",
+    "cost": "$1690 per person",
+    "title": "popular_tour",
+    "days": "4 Days",
+    "years": "12+ Years"
+  },
+  {
+    "img": "https://i.ibb.co/0j2fFfk/canada-curise.jpg",
+    "place_title": "Canada",
+    "ratting": "8.0 Superb",
+    "cost": "$1800 per person",
+    "title": "perfect_tour",
+    "days": "7 Days",
+    "years": "12+ Years"
+  }
+]

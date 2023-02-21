@@ -1,0 +1,26 @@
+[
+  {
+    "img": "https://i.ibb.co/kXPYhqT/sujitabh-chaudhary-y-Ez-HM6-Iq-Hc-A-unsplash.jpg",
+    "place": "Nepal",
+    "ratting": 6.3,
+    "cost": "$1730"
+  },
+  {
+    "img": "https://i.ibb.co/p2LjRLy/thailand.jpg",
+    "place": "Thailand",
+    "ratting": 7.4,
+    "cost": "$1925"
+  },
+  {
+    "img": "https://i.ibb.co/mDyY27k/south-africa.jpg",
+    "place": "South-Africa",
+    "ratting": 8.6,
+    "cost": "$2050"
+  },
+  {
+    "img": "https://i.ibb.co/BfH3zF5/missor-piramid.jpg",
+    "place": "Missior-Piramid",
+    "ratting": 6.7,
+    "cost": "$1830"
+  }
+]
