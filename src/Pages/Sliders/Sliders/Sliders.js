@@ -8,7 +8,6 @@ import image6 from '../../../asets/Images/img6.jpg'
 import image7 from '../../../asets/Images/img7.jpg'
 import Slides from '../Slides/Slides';
 
-
 const Sliders = () => {
 
     const sliderItems = [

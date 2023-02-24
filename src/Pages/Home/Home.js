@@ -1,4 +1,5 @@
 import React from 'react';
+import PerfectTours from '../PerfectTours/PerfectTours';
 import PopularTours from '../PopularTours/PopularTours';
 import Sliders from '../Sliders/Sliders/Sliders';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
            <Sliders></Sliders>
            <PopularTours></PopularTours>
+           <PerfectTours></PerfectTours>
         </div>
     );
 };
