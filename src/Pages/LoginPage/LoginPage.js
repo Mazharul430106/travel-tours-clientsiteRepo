@@ -6,7 +6,7 @@ import { AuthContext } from '../../Contexts/AuthProvider';
 const LoginPage = () => {
 
     const { register, handleSubmit } = useForm();
-    const { signInUser } = useContext(AuthContext);
+    const { signInUser, logInWithGoogle } = useContext(AuthContext);
     const loginSubmitForm = (data) => {
         // console.log(data);
 
@@ -19,8 +19,20 @@ const LoginPage = () => {
         .catch(error=> {
             console.log(error)
         })
-
     }
+
+    const handleGoogleLogin = ()=>{
+        logInWithGoogle()
+        .then(result => {
+            const user = result.user;
+            console.log(user)
+        })
+        .catch(error=> {
+            console.log(error)
+        })
+    }
+
+
 
     return (
         <div className="hero my-12 mt-32">
@@ -60,7 +72,7 @@ const LoginPage = () => {
                         </div>
 
                         <div className='form-control'>
-                            <button className='btn bg-teal-400 border-none'>Login With Google</button>
+                            <button onClick={handleGoogleLogin} className='btn bg-teal-400 border-none'>Login With Google</button>
                         </div>
                         <div className='flex justify-between'>
                             <span>Create an account</span>
