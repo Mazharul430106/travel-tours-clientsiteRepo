@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../asets/Images/logo.png';
+import { AuthContext } from '../Contexts/AuthProvider';
 const Header = () => {
+    const { user,signOutUser } = useContext(AuthContext);
+
+
+    const handleLogout =()=>{
+        signOutUser()
+        .then(()=> {})
+        .catch(error=> console.log(error))
+    }
 
     const menuItems = [
         <li><Link to='/'>HOME</Link></li>,
@@ -16,6 +25,9 @@ const Header = () => {
         <li><Link to='/destination'>DESTINATIONS</Link></li>,
         <li><Link to='/register'>REGISTER</Link></li>,
         <li><Link to='/login'>LOGIN</Link></li>,
+        <li>{user?.email && <span>{user?.email}</span>}</li>,
+        <li><button onClick={handleLogout} className="btn btn-sm text-white">LogOut</button></li>,
+       
     ]
 
     return (
@@ -31,7 +43,7 @@ const Header = () => {
                 </div>
                 <Link className="btn btn-ghost text-xl text-black">
                     <span className='pr-2'>
-                        <img className='w-[30px]' src={Logo} alt="" /> 
+                        <img className='w-[30px]' src={Logo} alt="" />
                     </span>
                     Travel-Tour
                 </Link>
