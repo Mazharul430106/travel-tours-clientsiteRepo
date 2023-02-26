@@ -7,12 +7,12 @@ const DisplayPopularTours = ({ popularTours }) => {
     const { img, place_title, cost, days, years, ratting, desc } = popularTours;
 
     return (
-        <div className="card card-compact w-full rounded-none bg-base-100 shadow-xl">
+        <div className="card card-compact w-full rounded bg-base-100 shadow-xl">
             <figure><img src={img} alt="Shoes" /></figure>
             <div className="card-body">
                 <div className='flex justify-between items-center'>
                     <h2 className="card-title text-2xl text-black">{place_title}</h2>
-                    <span className='text-2xl text-primary'>{cost}</span>
+                    <span className='text-2xl text-teal-400 font-semibold'>{cost}</span>
                 </div>
                 <div className='flex'>
                     <FaSmile className='text-xl text-gray-400'></FaSmile>

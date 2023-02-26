@@ -4,7 +4,7 @@ import { FaSmile } from 'react-icons/fa';
 const DisplayAbout = ({ aboutdata }) => {
     const { img, place, cost, ratting } = aboutdata;
     return (
-        <div className="card mb-20 card-compact rounded-none w-full bg-base-100 shadow-xl">
+        <div className="card mb-20 card-compact rounded w-full bg-base-100 shadow-xl">
             <figure>
                 <img className='h-full' src={img} alt="image not found"/>
             </figure>

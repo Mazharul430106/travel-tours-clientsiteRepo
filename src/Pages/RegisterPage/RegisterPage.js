@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const RegisterPage = () => {
     return (
-        <div className="hero my-12">
+        <div className="hero my-12 mt-32 ">
             <div className="hero-content lg:w-[550px] w-full flex-col lg:flex-row">
                 <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
                     <div className="card-body">
                         <form action="">
-                            <h1 className='text-3xl font-bold'>Register Now</h1>
+                            <h1 className='text-3xl text-center font-bold'>Register Now</h1>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Name</span>

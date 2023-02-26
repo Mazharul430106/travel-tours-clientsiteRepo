@@ -52,14 +52,13 @@ const PopularTours = () => {
         <div>
             <div className='py-16 text-center'>
                 <h1 className='text-5xl font-semibold'>Most Popular Tours</h1>
-                <p className='pt-5 text-[18px] text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel repellat officia tempore consequuntur omnis sapiente cumque accusantium error molestiae eos et itaque a laborum <br /> temporibus distinctio veniam eligendi nobis, dicta nulla dolorum magnam animi rem. Optio quod, delectus fugiat laudantium libero tenetur dignissimos architecto.</p>
+                <p className='pt-5 text-[20px] text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel repellat officia tempore consequuntur omnis sapiente cumque accusantium error <br /> molestiae eos et itaque a laborum temporibus distinctio veniam eligendi nobis, dicta nulla dolorum magnam animi rem Optio quod.</p>
             </div>
-            <div className='px-[7%] py-5 pb-20'>
+            <div className='py-5 pb-20'>
                 <Slider {...settings}>
                     {
                         popularTours.map(ppTour => <div className='p-4'><DisplayPopularTours key={ppTour._id} popularTours={ppTour}></DisplayPopularTours></div>)
                     }
-
                 </Slider>
             </div>
         </div>

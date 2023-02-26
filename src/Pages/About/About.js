@@ -17,7 +17,7 @@ const About = () => {
     return (
         <div>
             <section className='about-hero-section'>
-                <img className='w-full' src={aboutImg} alt="" />
+                <img className='w-full' src={aboutImg} alt=""/>
             </section>
             <section className='about-text-section bg-slate-100'>
                 <div className='flex justify-between px-[7%] bg-gray-200 py-6'>
@@ -41,7 +41,7 @@ const About = () => {
                     </div>
                     <div className=''>
                         <div>
-                            <iframe className='w-full h-[300px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239749035!2d90.27919580478637!3d23.780887453399934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1676804212874!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+                            <iframe className='w-full h-[300px] rounded' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239749035!2d90.27919580478637!3d23.780887453399934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1676804212874!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
                         </div>
                         <h2 className='text-2xl font-semibold py-5 pt-7'>Bangladesh Office</h2>
                         <div className=''>

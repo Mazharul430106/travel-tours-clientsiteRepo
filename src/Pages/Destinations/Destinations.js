@@ -10,7 +10,7 @@ const Destinations = () => {
     }, [])
 
     return (
-        <div className='px-[7%] py-5 pb-10'>
+        <div className='px-[7%] py-5 pb-10 mt-20'>
 
             <div className='text-center py-5 pb-10 '>
                 <h1 className='title lg:text-5xl text-3xl font-semibold py-5'>Select Your Destination</h1>

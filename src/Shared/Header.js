@@ -19,7 +19,7 @@ const Header = () => {
     ]
 
     return (
-        <div className="navbar bg-base-100 px-[7%]">
+        <div className="navbar text-black font-semibold px-[7%] absolute z-10 top-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Header = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link className="btn btn-ghost text-xl">
+                <Link className="btn btn-ghost text-xl text-black">
                     <span className='pr-2'>
                         <img className='w-[30px]' src={Logo} alt="" /> 
                     </span>
